@@ -4,6 +4,11 @@ body {
   padding-bottom: 20px;
 }
 
+.btn-info{
+  background-color: #009999;
+  border-color: #99cccc;
+}
+
 .middle {
   padding-bottom: 10px;
 }

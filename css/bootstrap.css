@@ -3232,19 +3232,19 @@ fieldset[disabled] .btn-success.focus {
 }
 .btn-info {
   color: #fff;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #009999;
+  border-color: #036663;
 }
 .btn-info:focus,
 .btn-info.focus {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #1b6d85;
+  background-color: #036663;
+  border-color: #009999;
 }
 .btn-info:hover {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #036663;
+  border-color: #009999;
 }
 .btn-info:active,
 .btn-info.active,
@@ -3991,7 +3991,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #71c8f0;
+  background-color: #009999;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4037,7 +4037,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555;
+  color: #ffffff;
   cursor: default;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -4946,7 +4946,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #337ab7;
+  color: #ffffff;
   background-color: #fff;
 }
 .list-group-item > .badge {
