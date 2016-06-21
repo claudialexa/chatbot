@@ -1,6 +1,6 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 20px;
 }
 
@@ -32,7 +32,9 @@ h3.feat {
 
 p.main{
   padding-top: 10px;
-  font-size: 18px;
+  font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
 }
 
 p.lead {
@@ -51,7 +53,7 @@ p.howto{
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
+
 .marketing,
 .footer {
   padding-right: 15px;
@@ -59,10 +61,7 @@ p.howto{
 }
 
 /* Custom page header */
-.header {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
-}
+
 
 img.icon {
   padding-bottom: 15px;
@@ -93,9 +92,11 @@ img.icon {
 
 /* Customize container */
 @media (min-width: 768px) {
+/*
   .container {
     max-width: 730px;
   }
+*/
 }
 .container-narrow > hr {
   margin: 30px 0;
@@ -105,11 +106,16 @@ img.icon {
 .jumbotron {
   text-align: center;
   border-bottom: 1px;
-  background-color: #ffffff;
+  background-color: #666;
+/*    color: #009898;*/
+    color: #fff;
+    border-bottom: 1px solid #009898;
+    background: url(../img/pattern.png)
 }
 .jumbotron .btn {
-  padding: 14px 24px;
+  padding: 25px 24px;
   font-size: 21px;
+    margin-top: 12px;
 }
 
 /* Supporting marketing content */
@@ -133,10 +139,29 @@ img.icon {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
-    border-bottom: 0;
+/*    border-bottom: 0;*/
+      padding-top: 0;
+    padding-bottom: 48px;
   }
+}
+
+
+/* kim's stuff */
+
+nav {
+    padding-top: 12px;
+    padding-bottom: 45px;
+}
+
+nav a {
+    color: #fff;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #009898;
+    background-color: #98cbca;
 }
