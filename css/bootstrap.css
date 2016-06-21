@@ -1102,7 +1102,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #ffffff;
   text-decoration: underline;
 }
 a:focus {
@@ -3232,19 +3232,19 @@ fieldset[disabled] .btn-success.focus {
 }
 .btn-info {
   color: #fff;
-  background-color: #009999;
+  background-color: #405561;
   border-color: #036663;
 }
 .btn-info:focus,
 .btn-info.focus {
   color: #fff;
   background-color: #036663;
-  border-color: #009999;
+  border-color: #405561;
 }
 .btn-info:hover {
   color: #fff;
   background-color: #036663;
-  border-color: #009999;
+  border-color: #405561;
 }
 .btn-info:active,
 .btn-info.active,
@@ -3991,7 +3991,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #009999;
+  background-color: #405561;
 }
 .nav > li.disabled > a {
   color: #777;
